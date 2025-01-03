@@ -3,9 +3,7 @@ import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 const toggler = document.getElementById('toggler')
 
 toggler.addEventListener('click', function(){
-
     document.body.classList.toggle('mode')
-
 })
 document.addEventListener('click', function(e){
     if(e.target.dataset.like){
